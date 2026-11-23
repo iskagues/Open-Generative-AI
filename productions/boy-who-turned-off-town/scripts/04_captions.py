@@ -73,7 +73,9 @@ for i, w in enumerate(items):
         pop = 106 + (i % 3) * 2  # 106/108/110 - avoid an identical, mechanical pop on every word
         anim = f"\\fscx92\\fscy92\\t(0,65,\\fscx{pop}\\fscy{pop})\\t(65,140,\\fscx100\\fscy100)"
         extra = ""
-    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{Y}){anim}{extra}}}{text}")
+    # S11 note close-up: the note sits in the caption zone for these words, so drop them onto the table below it
+    y = 1690 if 47.7 <= w["start"] < 50.1 else Y
+    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{y}){anim}{extra}}}{text}")
 open(os.path.join(B, "captions.ass"), "w").write(head + "\n".join(lines) + "\n")
 
 with open(os.path.join(B, "captions.srt"), "w") as f:
