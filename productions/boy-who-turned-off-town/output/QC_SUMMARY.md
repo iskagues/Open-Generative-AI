@@ -11,7 +11,7 @@ Measured on the final files with ffprobe / ffmpeg ebur128. Nothing below is esti
 | Audio | AAC 48 kHz stereo | AAC 48 kHz 2 ch ✔ |
 | Integrated loudness | −14 LUFS | −14.0 LUFS ✔ |
 | True peak | < −1 dBTP | −1.5 dBTP ✔ |
-| Narration words aligned | all | 178/178 by forced alignment (faster-whisper), 0 interpolated ✔ |
+| Narration words aligned | all | 178/178 (new voice v2) by forced alignment (faster-whisper), 0 interpolated ✔ |
 | Captions | word-by-word, #FFE033 Anton, black outline | 179 events, never two words on screen at once ✔ |
 | Emphasis words | DARK, STOP!, CLICK, STARS, NOBODY | larger pop + heavier outline (DARK orange-tint, CLICK white) ✔ |
 
@@ -28,7 +28,7 @@ Measured on the final files with ffprobe / ffmpeg ebur128. Nothing below is esti
 - No reference video was attached to the request, so the film follows the written spec, script and storyboard only.
 - Everything was made locally:
   - **Picture:** procedural three.js scenes rendered frame by frame in headless Chromium using software GL.
-  - **Voices:** Kokoro-82M, an open-weights TTS model, using the am_michael voice for the narrator and am_puck for Noah.
+  - **Voices (v2):** Chatterbox, an open-weights expressive TTS model (MIT licence). Each line has its own emotion intensity, and the narrator and Noah timbres are cloned from Kokoro-82M reference clips (an open model, not a real person). There are 3 takes per line and the best one is picked by speech-recognition match. A clean voice chain is applied: high-pass, EQ, de-esser, light compression, and no pitch shifting. Every line keeps its original start time, so the picture stays in sync: 25 of 27 lines needed no stretching, and the others at most ×1.13. Chatterbox adds an inaudible provenance watermark (Perth) to its audio.
   - **Score and sound effects:** synthesized in numpy.
 - No paid generative video service was used, and no third-party footage, music or game assets are included. Characters, town, score and motif are original.
 - The style is blocky avatar animation in the spirit of Roblox. It is simple real-time 3D, not a high-end Pixar-style render.

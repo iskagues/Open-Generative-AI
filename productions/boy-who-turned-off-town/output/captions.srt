@@ -1,37 +1,37 @@
 1
-00:00:00,300 --> 00:00:04,549
+00:00:00,300 --> 00:00:04,520
 Every night at exactly nine seventeen, our town square went DARK.
 
 2
-00:00:05,114 --> 00:00:09,587
+00:00:05,114 --> 00:00:09,746
 The streetlights. The shops. Even the mayor's ridiculous golden statue.
 
 3
-00:00:09,666 --> 00:00:11,961
+00:00:09,666 --> 00:00:12,110
 And by morning? Everything worked again.
 
 4
-00:00:12,102 --> 00:00:15,681
+00:00:12,102 --> 00:00:15,841
 The mayor blamed electricians. The baker blamed aliens.
 
 5
-00:00:15,822 --> 00:00:17,230
+00:00:15,822 --> 00:00:17,130
 I blamed one kid.
 
 6
-00:00:17,278 --> 00:00:19,283
+00:00:17,278 --> 00:00:19,103
 The quiet boy in the green hoodie.
 
 7
-00:00:19,486 --> 00:00:23,586
+00:00:19,486 --> 00:00:23,745
 Every night, I saw him climb the hill carrying a giant red switch.
 
 8
-00:00:23,665 --> 00:00:25,623
+00:00:23,665 --> 00:00:25,465
 So on Friday, I followed him.
 
 9
-00:00:25,609 --> 00:00:29,866
+00:00:25,609 --> 00:00:29,600
 Past the playground. Through the trees. Into the abandoned observatory.
 
 10
@@ -43,66 +43,66 @@ He reached for the switch.
 I screamed,
 
 12
-00:00:31,696 --> 00:00:32,410
+00:00:31,696 --> 00:00:32,360
 STOP!
 
 13
-00:00:32,644 --> 00:00:34,097
+00:00:32,644 --> 00:00:34,233
 Please... just one minute.
 
 14
-00:00:35,262 --> 00:00:37,730
+00:00:35,262 --> 00:00:37,850
 The whole square disappeared into darkness.
 
 15
-00:00:37,995 --> 00:00:39,116
+00:00:37,995 --> 00:00:39,189
 I was furious...
 
 16
-00:00:39,257 --> 00:00:40,871
+00:00:39,257 --> 00:00:40,624
 Until he pointed upward.
 
 17
-00:00:41,563 --> 00:00:43,009
+00:00:41,563 --> 00:00:42,776
 Thousands of stars.
 
 18
-00:00:43,212 --> 00:00:46,054
+00:00:43,212 --> 00:00:46,150
 A glowing comet stretching across the sky.
 
 19
-00:00:46,443 --> 00:00:49,483
+00:00:46,443 --> 00:00:49,611
 On his desk lay a crayon drawing of that same comet.
 
 20
-00:00:49,531 --> 00:00:50,709
+00:00:49,531 --> 00:00:50,775
 Below it, a note:
 
 21
-00:00:50,695 --> 00:00:52,597
+00:00:50,695 --> 00:00:52,442
 “I want to see the sky sparkle.”
 
 22
-00:00:52,924 --> 00:00:55,879
+00:00:52,924 --> 00:00:55,538
 His little sister had been in the hospital all week.
 
 23
-00:00:55,927 --> 00:00:57,836
+00:00:55,927 --> 00:00:57,553
 Tonight was her first night home.
 
 24
-00:00:58,163 --> 00:01:00,131
+00:00:58,163 --> 00:00:59,923
 He wasn't trying to ruin our nights.
 
 25
-00:01:00,117 --> 00:01:02,656
+00:01:00,117 --> 00:01:02,625
 He was giving her one she would never forget.
 
 26
-00:01:03,306 --> 00:01:04,811
+00:01:03,306 --> 00:01:04,589
 And for the first time...
 
 27
-00:01:05,241 --> 00:01:08,124
+00:01:05,241 --> 00:01:07,580
 Nobody asked him to turn the lights back on.
 
