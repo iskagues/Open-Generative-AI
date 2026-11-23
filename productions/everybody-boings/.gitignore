@@ -2,3 +2,4 @@ build/
 render/node_modules
 render/package-lock.json
 output/everybody_boings_except_me_master.mp4
+__pycache__/
