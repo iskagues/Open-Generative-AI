@@ -12,7 +12,7 @@ from script import LINES
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = os.path.join(ROOT, "build")
 FPS = 30
-TAIL = 0.9
+TAIL = 1.8  # v2: let the music breathe out at the end
 
 CUTS = [
  ("c01_aerial", "p01", 0), ("c02_street", "p01", 3),

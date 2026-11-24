@@ -88,6 +88,23 @@ def main():
     vo = np.concatenate(parts)
     sf.write(os.path.join(B, "voice.wav"), vo, SR, subtype="PCM_24")
     words = v1.align(phrases)
+    # whisper sometimes hallucinates on a short isolated clip ("thanks for watching"):
+    # re-align such lines on a padded copy (0.6 s silence each side) and keep the better result
+    bad = {ph["id"] for ph in phrases if sum(w["interp"] for w in words if w["phrase"] == ph["id"]) > len(ph["caption"].split()) / 3}
+    if bad:
+        pad = int(0.6 * SR); fixed = []
+        for ph in phrases:
+            if ph["id"] not in bad: continue
+            a, _ = sf.read(os.path.join(FIT, ph["id"] + ".wav"), dtype="float32")
+            sf.write(os.path.join(FIT, ph["id"] + "_pad.wav"), np.concatenate([np.zeros(pad, np.float32), a, np.zeros(pad, np.float32)]), SR)
+            q = dict(ph, id=ph["id"] + "_pad", start=ph["start"] - 0.6, end=ph["end"] + 0.6)
+            ws = v1.align([q])
+            if sum(w["interp"] for w in ws) < sum(w["interp"] for w in words if w["phrase"] == ph["id"]):
+                for w in ws: w["phrase"] = ph["id"]; w["start"] = max(w["start"], ph["start"]); w["end"] = min(max(w["end"], w["start"] + 0.05), ph["end"])
+                words = [w for w in words if w["phrase"] != ph["id"]] + ws
+                fixed.append(ph["id"])
+        words.sort(key=lambda w: w["start"])
+        print("re-aligned:", fixed, "of", sorted(bad))
     json.dump(dict(total=len(vo) / SR, phrases=phrases), open(os.path.join(B, "phrases.json"), "w"), indent=1)
     json.dump(words, open(os.path.join(B, "words.json"), "w"), indent=1)
     print("\n".join(rep))

@@ -278,7 +278,7 @@ def main():
     meter = pyln.Meter(SR)
     mix = sfx * duck[:, None] * 10 ** (-8 / 20) + voice[:, None] * 1.0   # voice-first balance, like the reference
     # v2: background music supplied by the user (build/music/track.wav), from its start,
-    # sitting ~13 LU under the voice, ducked a further ~5 dB while the narrator speaks, faded out at the end
+    # sitting ~10 LU under the voice, ducked a further ~5 dB while the narrator speaks, faded out at the end
     mp = os.path.join(B, "music", "track.wav")
     if os.path.exists(mp) and os.environ.get("MUSIC", "1") == "1":
         mu, msr = sf.read(mp, dtype="float64"); assert msr == SR
@@ -286,7 +286,7 @@ def main():
         while len(mu) < n: mu = np.concatenate([mu, mu])
         mu = mu[:n].copy()
         vl = meter.integrated_loudness(np.stack([voice, voice], 1))
-        mu *= 10 ** ((vl - 13 - meter.integrated_loudness(mu)) / 20)
+        mu *= 10 ** ((vl - 10 - meter.integrated_loudness(mu)) / 20)
         mduck = 10 ** (-5 * np.clip(e * 4, 0, 1) / 20)
         fi, fo = int(0.25 * SR), int(2.2 * SR)
         fade = np.ones(n); fade[:fi] = np.linspace(0, 1, fi); fade[-fo:] = np.linspace(1, 0, fo) ** 1.5
