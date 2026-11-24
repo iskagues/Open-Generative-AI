@@ -34,6 +34,8 @@ Style: Word,Nunito XB,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,10
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 X, Y = 540, 1115
+_tl = json.load(open(os.path.join(B, "timeline.json")))
+LOW = [(c["start"], c["end"]) for c in _tl["cuts"] if c["name"] in ("c42_score10", "c49_score5")]  # scoreboard text sits at caption height
 items = [dict(w) for w in words]
 for i in range(1, len(items)):
     items[i]["start"] = max(items[i]["start"], items[i - 1]["start"] + 0.08)
@@ -44,7 +46,7 @@ for i, w in enumerate(items):
     end = max(min(end, nxt), w["start"] + 0.08)
     shown = w['word'].strip('.,:;…"“”') if not w['word'].endswith(('!', '?')) else w['word'].rstrip('.')
     shown = shown.rstrip('.') or w['word']
-    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{Y})\\blur0.6}}{shown}")
+    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{1330 if any(a <= w['start'] < b for a, b in LOW) else Y})\\blur0.6}}{shown}")
 open(os.path.join(B, "captions.ass"), "w").write(head + "\n".join(lines) + "\n")
 with open(os.path.join(B, "captions.srt"), "w") as f:
     for i, p in enumerate(phrases, 1):
