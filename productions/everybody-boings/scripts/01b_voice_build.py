@@ -14,12 +14,12 @@ sys.path.insert(0, os.path.dirname(__file__))
 from script import LINES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-B = os.path.join(ROOT, "build"); VO = os.path.join(B, "vo"); FIT = os.path.join(B, "vo_fit")
+B = os.path.join(ROOT, "build"); VO = os.path.join(B, os.environ.get("VO_DIR", "vo")); FIT = os.path.join(B, os.environ.get("VO_DIR", "vo") + "_fit")
 os.makedirs(FIT, exist_ok=True)
 SR = 48000
 LEAD_IN = 0.06
-TARGET_MAX = 62.6      # seconds of speech+pauses (reference: 62.4 s total)
-WPM = 235
+WPM = float(os.environ.get("WPM", 235))        # target speaking pace (v2 storyteller brief: 165-185)
+TARGET_MAX = float(os.environ.get("TARGET_MAX", 62.6))  # cap on total length (v1 matched the 62.4 s reference)
 
 # reuse the word aligner from the first production
 spec = importlib.util.spec_from_file_location("v1", os.path.join(ROOT, "..", "boy-who-turned-off-town", "scripts", "01_voice.py"))
@@ -66,7 +66,10 @@ def main():
             sys.exit(f"no takes for {pid}")
         picks.append((pid, spk, text, cap, pause) + best[1:])
     total = LEAD_IN + sum(p[7] + p[4] for p in picks)
-    speed = max(1.0, (total - LEAD_IN - sum(p[4] for p in picks)) / (TARGET_MAX - LEAD_IN - sum(p[4] for p in picks)))
+    speech = sum(p[7] for p in picks); nwords = sum(len(words_of(p[2])) for p in picks)
+    speed_len = (total - LEAD_IN - sum(p[4] for p in picks)) / (TARGET_MAX - LEAD_IN - sum(p[4] for p in picks))
+    speed_pace = (WPM * speech / 60) / nwords      # raise speech-only pace to WPM
+    speed = max(1.0, speed_len, speed_pace)
     print(f"raw read {total:.2f}s -> tempo x{speed:.3f}")
     t, parts, phrases, rep = LEAD_IN, [np.zeros(int(LEAD_IN * SR), np.float32)], [], []
     for pid, spk, text, cap, pause, n, cl, d, sim, hyp in picks:

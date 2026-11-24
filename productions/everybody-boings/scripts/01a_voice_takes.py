@@ -13,9 +13,10 @@ sys.path.insert(0, os.path.dirname(__file__))
 from script import LINES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VO = os.path.join(ROOT, "build", "vo")
+VO = os.path.join(ROOT, "build", os.environ.get("VO_DIR", "vo"))
 TAKES = int(os.environ.get("TAKES", 3))
-REF = {"kid": os.path.join(VO, "ref_nova6.wav"), "zoe": os.path.join(VO, "ref_sky6.wav")}
+REF_DIR = os.path.join(ROOT, "build", "vo")
+REF = {"kid": os.path.join(REF_DIR, os.environ.get("NARR_REF", "ref_nova6.wav")), "zoe": os.path.join(REF_DIR, "ref_sky6.wav")}
 
 if __name__ == "__main__":
     only = set(sys.argv[1:])
