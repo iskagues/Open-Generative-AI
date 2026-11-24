@@ -35,8 +35,9 @@ def ff(inp, out, af):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", inp, "-af", af, "-ar", str(SR), "-ac", "1", out], check=True)
 
 
+NUM = {"9": "nine", "10": "ten", "5": "five", "7": "seven", "accept": "except"}
 def words_of(s):
-    return [v1.norm(w) for w in s.replace("-", " ").split() if v1.norm(w)]
+    return [NUM.get(v1.norm(w), v1.norm(w)) for w in s.replace("-", " ").split() if v1.norm(w)]
 
 
 def main():
@@ -54,7 +55,7 @@ def main():
             cl = os.path.join(FIT, f"{pid}_{n}_c.wav"); ff(raw, cl, CLEAN)
             a, _ = sf.read(cl, dtype="float32"); d = len(a) / SR
             pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", cl, "-ar", "16000", "-f", "f32le", "-"], capture_output=True, check=True).stdout
-            segs, _ = asr.transcribe(np.frombuffer(pcm, np.float32), language="en", beam_size=5, initial_prompt="boing, boings, boinging, BOING!")
+            segs, _ = asr.transcribe(np.frombuffer(pcm, np.float32), language="en", beam_size=5, initial_prompt="boing, boings, boinging, BOING!, burped, nine sodas, except the ref, hnnng")
             hyp = words_of(" ".join(s.text for s in segs)); ref = words_of(text)
             sim = difflib.SequenceMatcher(None, hyp, ref).ratio()
             pace = len(ref) / max(d, 0.3) * 60

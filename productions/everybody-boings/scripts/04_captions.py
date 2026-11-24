@@ -28,7 +28,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Word,Nunito Black,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0.5,0,1,4.2,2.2,5,40,40,0,1
+Style: Word,Nunito XB,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0.5,0,1,3.6,3,5,40,40,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -42,7 +42,9 @@ for i, w in enumerate(items):
     nxt = items[i + 1]["start"] if i + 1 < len(items) else w["end"] + 0.6
     end = nxt if nxt - w["end"] < 0.45 else w["end"] + 0.25
     end = max(min(end, nxt), w["start"] + 0.08)
-    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{Y})}}{w['word']}")
+    shown = w['word'].strip('.,:;…"“”') if not w['word'].endswith(('!', '?')) else w['word'].rstrip('.')
+    shown = shown.rstrip('.') or w['word']
+    lines.append(f"Dialogue: 0,{ts(w['start'])},{ts(end)},Word,,0,0,0,,{{\\an5\\pos({X},{Y})\\blur0.6}}{shown}")
 open(os.path.join(B, "captions.ass"), "w").write(head + "\n".join(lines) + "\n")
 with open(os.path.join(B, "captions.srt"), "w") as f:
     for i, p in enumerate(phrases, 1):

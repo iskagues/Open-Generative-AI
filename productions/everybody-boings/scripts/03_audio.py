@@ -273,21 +273,25 @@ def main():
     voice = np.zeros(len(sfx)); voice[: min(len(v), len(voice))] = v[: len(voice)]
     # gentle ducking of effects under the voice (voice dominates, like the reference)
     e = np.abs(voice); e = lp(e, 8) ; e = e / (e.max() + 1e-9)
-    duck = 10 ** (-6 * np.clip(e * 4, 0, 1) / 20)
-    mix = sfx * duck[:, None] * 0.9 + voice[:, None] * 1.0
+    duck = 10 ** (-8 * np.clip(e * 4, 0, 1) / 20)
+    mix = sfx * duck[:, None] * 10 ** (-8 / 20) + voice[:, None] * 1.0   # voice-first balance, like the reference
     import pyloudnorm as pyln
     meter = pyln.Meter(SR)
-    for _ in range(4):
-        g = -14.0 - meter.integrated_loudness(mix); mix *= 10 ** (g / 20)
-        # look-ahead limiter at -1.5 dBFS (4x oversampled peak estimate)
-        up = signal.resample_poly(mix, 4, 1, axis=0); pk = np.max(np.abs(up), 1)
-        lim = 10 ** (-1.6 / 20); gain = np.minimum(1, lim / np.maximum(pk, 1e-9))
-        gain = -signal.convolve(-gain, np.ones(4 * 48) / (4 * 48), mode="same"); gain = np.minimum.accumulate(gain[::-1])[::-1] if False else gain
-        gain = signal.resample_poly(np.minimum(1, gain), 1, 4)[: len(mix)]
-        # smooth release
-        sm = np.copy(gain)
-        for i in range(1, len(sm)): sm[i] = min(gain[i], sm[i - 1] + (1 - sm[i - 1]) * 0.0015)
-        mix *= sm[:, None]
+    from scipy.ndimage import maximum_filter1d, uniform_filter1d
+    lim = 10 ** (-1.7 / 20)
+    for _ in range(6):
+        mix *= 10 ** ((-14.0 - meter.integrated_loudness(mix)) / 20)
+        up = signal.resample_poly(mix, 4, 1, axis=0)
+        pk = signal.resample_poly(np.max(np.abs(up), 1), 1, 4)[: len(mix)]   # true-peak envelope
+        pk = np.maximum(pk, np.max(np.abs(mix), 1))
+        w = int(0.006 * SR)                                                  # 6 ms look-ahead/hold
+        g = np.minimum(1, lim / np.maximum(maximum_filter1d(pk, 2 * w + 1), 1e-9))
+        g = uniform_filter1d(np.minimum.reduce([g, np.roll(g, w // 2), np.roll(g, -w // 2)]), w)  # smooth attack
+        rel = np.exp(-1 / (0.08 * SR)); out = np.empty_like(g); acc = 1.0
+        for k in range(len(g)):
+            acc = g[k] if g[k] < acc else g[k] + (acc - g[k]) * rel
+            out[k] = acc
+        mix *= np.minimum(out, g)[:, None]
     I = meter.integrated_loudness(mix)
     tp = 20 * np.log10(np.max(np.abs(signal.resample_poly(mix, 4, 1, axis=0))))
     sf.write(os.path.join(B, "mix.wav"), mix.astype(np.float32), SR, subtype="PCM_24")

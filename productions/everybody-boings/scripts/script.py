@@ -27,7 +27,7 @@ LINES = [
  ("p21", "kid", "Boing! Boing! Boing!", "BOING! BOING! BOING!", 1.10, 0.50, 0.15),
  ("p22", "kid", "Ten seconds left. One giant gap. We were losing.", None, 0.90, 0.60, 0.12),
  ("p23", "kid", "I bent my knees. I pushed.", None, 0.85, 0.55, 0.08),
- ("p24", "kid", "Hnnnng... almost... almost... almost!", "Hnnng... almost... almost... ALMOST!", 1.20, 0.45, 0.10),
+ ("p24", "kid", "Hnnnng... almost... almost... almost!", "Hnnng... almost... almost... almost... ALMOST!", 1.20, 0.45, 0.10),
  ("p25", "kid", "The other team started laughing.", None, 0.70, 0.55, 0.15),
  ("p26", "kid", "Five seconds. Seven nights of squats, all saved up.", None, 0.85, 0.55, 0.10),
  ("p27", "kid", "And then... it came back.", None, 0.80, 0.45, 0.08),

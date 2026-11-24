@@ -541,6 +541,14 @@ S.c47_strain = (t, d) => {
   faceCam(C.world.cast.milo, 2.4 - t * 0.12, { dy: -0.1, fov: 42 });
   shake(0.05, t);
 };
+S.c47b_strain_wide = (t, d) => {
+  setEnv('day');
+  C.world.updateCrowd(t, 0.6);
+  miloEdge('strain', Object.assign(CROUCH(1), { bob: -0.3 + 0.15 * Math.max(0, Math.sin(t * 6)) }));
+  C.world.cast.milo.setExpr('strain', { red: 0.55 });
+  shake(0.07, t);
+  cam(R3(1.6, 1.2, -2.2), R3(0, 1.5, 2.4), 54);
+};
 // p25 rivals laughing
 S.c48_laugh = (t, d) => {
   setEnv('day');
@@ -567,7 +575,6 @@ S.c51_eyes = (t, d) => {
   C.world.updateCrowd(t, 0.3);
   miloEdge('determined', CROUCH(1));
   const W = C.world;
-  dust(R3(0, 0.15, 2.4), (t % 0.8), 0.8, 2.2);
   const h = headOf(W.cast.milo);
   cam(h.clone().add(V(0.4, -1.9, -2.2)), h.clone().add(V(0, 0.1, 0)), 46);
 };
@@ -641,7 +648,7 @@ S.c57_hat = (t, d) => {
   put(W.cast.ref, RACE.x + 4, RACE.y + 0.15, RACE.z + z - 1.5, -0.6, { armL: [1.8, 0.4], armR: [1.8, 0.4], lean: -0.2 }, 'shock');
   const h = headOf(W.cast.ref);
   W.refHat.visible = true;
-  W.refHat.position.copy(h).add(V(-t * 3, 0.42 + t * 5, -t * 2)); W.refHat.rotation.set(t * 9, t * 4, t * 6);
+  W.refHat.position.copy(h).add(V(t * 3, 0.42 + t * 6, -t * 4)); W.refHat.rotation.set(t * 9, t * 4, t * 6);
   faceCam(W.cast.ref, 5.0, { dy: 0.2, fov: 54, lookDy: 1.6, side: 0.6 });
 };
 S.c58_hat_town = (t, d) => {
