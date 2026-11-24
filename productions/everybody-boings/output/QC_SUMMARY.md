@@ -17,3 +17,11 @@ Measured on `everybody_boings_except_me.mp4` with ffprobe, ebur128 and librosa.
 - The voices come from Chatterbox, which adds an inaudible provenance watermark to its audio. There are no visible watermarks.
 - All the sounds are generated in code. There is no music, as in the reference.
 - In the two scoreboard shots, the captions sit a little lower so they don't cover the board.
+
+## v2 (current master)
+- Voice: new young-adult male storyteller (synthetic; Chatterbox cloning a Kokoro am_puck +3 st reference, median ~133 Hz), per-line emotion settings, best of 3–7 takes/line, dry studio chain (no reverb).
+- Pace: 172 wpm overall (brief: 165–185), 243/244 words force-aligned.
+- Music: user-supplied track "In This Town – Dreamcore (Roblox Nostalgia)", ~13 LU under the voice, 5 dB sidechain duck, 2.2 s fade-out. Third-party track: publishing rights are the uploader's responsibility.
+- Duration 86.97 s, 1080x1920, 30 fps, 2609 frames.
+- Loudness −14.0 LUFS integrated, true peak −1.6 dBTP.
+- Captions re-timed to the new voice; lowered below the scoreboard on the two score cuts.

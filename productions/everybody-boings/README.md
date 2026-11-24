@@ -1,5 +1,7 @@
 # Everybody Boings (Except Me)
 
+> **v2:** new storyteller voice (172 wpm) + user-supplied background music, 87 s. See output/QC_SUMMARY.md.
+
 An original 63-second vertical short (1080×1920, 30 fps). It is made in the same style as the reference video the user supplied, with a completely new story.
 The analysis of the reference is in `../ref_analysis/ANALYSIS.md`.
 
