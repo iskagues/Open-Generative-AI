@@ -27,7 +27,7 @@ v1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(v1)
 v1.TMP = FIT
 
 CLEAN = ("highpass=f=80,lowpass=f=15000,equalizer=f=250:t=q:w=1.2:g=-2,equalizer=f=3500:t=q:w=1.0:g=2.5,"
-         "deesser=i=0.4:m=0.5:f=0.5,acompressor=threshold=-22dB:ratio=3:attack=5:release=110:makeup=2,"
+         "deesser=i=0.3:m=0.5:f=0.5,acompressor=threshold=-24dB:ratio=2:attack=8:release=150:makeup=1.5,"
          "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse")
 
 
