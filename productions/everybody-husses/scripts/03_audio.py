@@ -194,7 +194,7 @@ def splash(d=1.0):
         s = int(rng.uniform(0.02, 0.6) * SR); ln = int(0.07 * SR); tv = tt(0.07)
         f = rng.uniform(250, 700) * (1 + 1.5 * tv / 0.07)
         x[s:s + ln] += np.sin(2 * np.pi * np.cumsum(f) / SR)[: n - s] * np.sin(np.pi * tv / 0.07)[: n - s] * 0.35
-    x += thud(55, 0.3)[:n] if n >= int(0.3 * SR) else 0
+    th = thud(55, 0.3)[:n]; x[:len(th)] += th
     return x / (np.max(np.abs(x)) + 1e-9)
 
 
