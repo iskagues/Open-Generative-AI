@@ -29,7 +29,7 @@ LINES = [
  ("p23", "kid", "Mudville laughed so hard, they almost let go.", None, 0.80, 0.45, 0.25),
  ("p24", "kid", "Five seconds. Seven nights of pulling, all saved up.", None, 0.90, 0.45, 0.15),
  ("p25", "kid", "And then... it came out.", None, 0.90, 0.40, 0.20),
- ("p26", "kid", "HUSS!", "HUSS!", 1.40, 0.40, 0.20),
+ ("p26", "kid", "Huss!", "HUSS!", 1.30, 0.40, 0.20),
  ("p27", "kid", "The rope snapped tight. All of Mudville flew over our heads, did a full loop, and landed face first in their own mud.", None, 1.00, 0.55, 0.20),
  ("p28", "kid", "We won!", None, 1.15, 0.50, 0.40),
  ("p29", "kid", "Now everybody in this town husses. Even me.", None, 0.80, 0.45, 0.20),
