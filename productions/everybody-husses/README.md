@@ -8,8 +8,8 @@ A vertical (1080×1920, 30 fps) blocky-avatar story short, about 70 s long, in E
 | step | script | output |
 |---|---|---|
 | crowd chant | `scripts/00_crowd_huss.py` (Kokoro, 14 synthetic voices × 2) | `build/crowd_huss.wav` |
-| voice takes | `~/cbx/bin/python scripts/01a_voice_takes.py` (Chatterbox, 3 takes/line, per-line emotion) | `build/vo/` |
-| voice build | `WPM=190 TARGET_MAX=80 python3 scripts/01b_voice_build.py` | `build/voice.wav`, `words.json` |
+| voice takes | `~/cbx/bin/python scripts/01a_voice_takes.py` (Chatterbox, 3 takes/line, per-line emotion, built-in human voice) | `build/vo3/` |
+| voice build | `VO_DIR=vo3 WPM=165 TARGET_MAX=95 python3 scripts/01b_voice_build.py` | `build/voice.wav`, `words.json` |
 | cuts | `python3 scripts/02_timeline.py` (60 word-anchored cuts) | `build/timeline.json` |
 | sound + mix | `python3 scripts/03_audio.py` | `build/sfx.wav`, `mix.wav`, `music_bed.wav` |
 | captions | `python3 scripts/04_captions.py` | `build/captions.ass` |
@@ -17,7 +17,7 @@ A vertical (1080×1920, 30 fps) blocky-avatar story short, about 70 s long, in E
 | deliver | `scripts/05_assemble.sh` | `output/` |
 
 ## Voice
-- **Leo, the narrator.** A young-adult male storyteller voice: Kokoro `am_puck` raised 3 semitones with formants kept, acted line by line by Chatterbox. Each line has its own exaggeration and pace (curiosity, embarrassment, suspense, comedy, explosion, triumph).
+- **Leo, the narrator (v2).** Chatterbox's built-in default voice (no cloning of a synthetic reference), acted line by line with its own exaggeration per line (curiosity, embarrassment, suspense, comedy, explosion, triumph). No time-stretch: natural pace ~185 wpm. Light de-ess + 2:1 compression only. Pitch range ~16–17 semitones vs ~8–12 in v1, so it sounds far less robotic.
 - **Ava, the captain.** Kokoro `af_sky`.
 - Both voices are synthetic. Neither is cloned from any real person or from the reference video. The output carries Chatterbox's inaudible Perth watermark.
 
