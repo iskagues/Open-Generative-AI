@@ -1,0 +1,7 @@
+ref.mp4
+*.wav
+stems/
+*.png
+*.jpg
+cuts.txt
+ref_words.json

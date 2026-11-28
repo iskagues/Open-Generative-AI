@@ -1,0 +1,41 @@
+"""The script: one source of truth for voice, captions and the shot plan.
+
+id, speaker, spoken text, caption text (None = same), exaggeration, cfg, pause-after (s)
+speaker: kid = Milo (narrator, first person; v2: young-adult storyteller voice), zoe = best friend
+"""
+LINES = [
+ ("p01", "kid", "In this town, everybody boings.", None, 0.80, 0.50, 0.18),
+ ("p02", "kid", "Except me.", None, 0.60, 0.35, 0.45),
+ ("p03", "kid", "Okay. I used to boing the highest.", None, 0.70, 0.50, 0.12),
+ ("p04", "kid", "Over the fence. Over the mailman. Every single morning.", None, 0.90, 0.60, 0.30),
+ ("p05", "kid", "Then one day, my boing was just... gone.", None, 0.65, 0.35, 0.40),
+ ("p06", "kid", "The doctor tapped my knee. Nothing.", None, 0.60, 0.45, 0.15),
+ ("p07", "kid", "Too much boinging. No boinging for a month.", None, 0.85, 0.50, 0.30),
+ ("p08", "kid", "The Sky Race was in one week, so I tried everything.", None, 0.85, 0.55, 0.20),
+ ("p09", "kid", "Nine sodas. I just burped.", None, 0.75, 0.50, 0.15),
+ ("p10", "kid", "Springs on my shoes. I got stuck to the ceiling.", None, 0.85, 0.55, 0.15),
+ ("p11", "kid", "Grandma's trampoline. It launched me into the mailbox.", None, 0.95, 0.60, 0.25),
+ ("p12", "kid", "Even my cat boings better than me now.", None, 0.60, 0.40, 0.40),
+ ("p13", "kid", "Then my best friend yelled from her roof.", None, 0.70, 0.50, 0.10),
+ ("p14", "zoe", "Rooftop party tonight! Oh wait, you can't get up here anyway.", None, 0.85, 0.60, 0.25),
+ ("p15", "kid", "I shut the window.", None, 0.55, 0.35, 0.45),
+ ("p16", "kid", "So while they danced on the roofs, I trained in the garage.", None, 0.70, 0.45, 0.15),
+ ("p17", "kid", "No boing. Just me and gravity. Every single night.", None, 0.65, 0.40, 0.25),
+ ("p18", "kid", "For the first time in years, the mailman finished his route.", None, 0.70, 0.45, 0.45),
+ ("p19", "kid", "Then came the race.", None, 0.75, 0.40, 0.20),
+ ("p20", "kid", "The other team boinged so high, they waved at airplanes.", None, 0.90, 0.60, 0.10),
+ ("p21", "kid", "Boing! Boing! Boing!", "BOING! BOING! BOING!", 1.10, 0.50, 0.25),
+ ("p22", "kid", "Ten seconds left. One giant gap. We were losing.", None, 0.90, 0.55, 0.20),
+ ("p23", "kid", "I bent my knees. I pushed.", None, 0.85, 0.45, 0.12),
+ ("p24", "kid", "Hnnnng... almost... almost... almost!", "Hnnng... almost... almost... almost... ALMOST!", 1.20, 0.45, 0.20),
+ ("p25", "kid", "The other team started laughing.", None, 0.60, 0.45, 0.30),
+ ("p26", "kid", "Five seconds. Seven nights of squats, all saved up.", None, 0.85, 0.45, 0.20),
+ ("p27", "kid", "And then... it came back.", None, 0.90, 0.40, 0.25),
+ ("p28", "kid", "BOING!", "BOING!", 1.40, 0.40, 0.25),
+ ("p29", "kid", "I flew so high, I high-fived a bird.", None, 1.00, 0.60, 0.15),
+ ("p30", "kid", "I landed on the finish line. The scoreboard fell over. The ref's hat flew into the next town.", None, 1.00, 0.60, 0.20),
+ ("p31", "kid", "We won!", None, 1.15, 0.50, 0.45),
+ ("p32", "kid", "That night, the whole town was boinging again.", None, 0.80, 0.45, 0.25),
+ ("p33", "kid", "Except the ref.", None, 0.60, 0.40, 0.25),
+ ("p34", "kid", "He's still looking for his hat.", None, 0.80, 0.40, 0.00),
+]

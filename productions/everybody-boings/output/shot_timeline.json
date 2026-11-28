@@ -1,0 +1,743 @@
+{
+ "fps": 30,
+ "duration": 86.98,
+ "frames": 2609,
+ "cuts": [
+  {
+   "name": "c01_aerial",
+   "line": "p01",
+   "start": 0.0,
+   "end": 0.9
+  },
+  {
+   "name": "c02_street",
+   "line": "p01",
+   "start": 0.9,
+   "end": 1.952
+  },
+  {
+   "name": "c03_milo_flat",
+   "line": "p02",
+   "start": 1.952,
+   "end": 2.979
+  },
+  {
+   "name": "c04_milo_high",
+   "line": "p03",
+   "start": 2.979,
+   "end": 5.607
+  },
+  {
+   "name": "c05_fence",
+   "line": "p04",
+   "start": 5.607,
+   "end": 6.807
+  },
+  {
+   "name": "c06_mailman",
+   "line": "p04",
+   "start": 6.807,
+   "end": 7.967
+  },
+  {
+   "name": "c07_morning",
+   "line": "p04",
+   "start": 7.967,
+   "end": 9.421
+  },
+  {
+   "name": "c08_try",
+   "line": "p05",
+   "start": 9.421,
+   "end": 10.721
+  },
+  {
+   "name": "c09_gone_face",
+   "line": "p05",
+   "start": 10.721,
+   "end": 12.456
+  },
+  {
+   "name": "c10_doctor_wide",
+   "line": "p06",
+   "start": 12.456,
+   "end": 13.076
+  },
+  {
+   "name": "c11_knee",
+   "line": "p06",
+   "start": 13.076,
+   "end": 13.856
+  },
+  {
+   "name": "c12_nothing",
+   "line": "p06",
+   "start": 13.856,
+   "end": 14.407
+  },
+  {
+   "name": "c13_doctor_serious",
+   "line": "p07",
+   "start": 14.407,
+   "end": 15.527
+  },
+  {
+   "name": "c14_milo_shock",
+   "line": "p07",
+   "start": 15.527,
+   "end": 16.367
+  },
+  {
+   "name": "c15_clip",
+   "line": "p07",
+   "start": 16.367,
+   "end": 17.137
+  },
+  {
+   "name": "c16_poster",
+   "line": "p08",
+   "start": 17.137,
+   "end": 18.617
+  },
+  {
+   "name": "c17_determined",
+   "line": "p08",
+   "start": 18.617,
+   "end": 19.998
+  },
+  {
+   "name": "c18_cans",
+   "line": "p09",
+   "start": 19.998,
+   "end": 20.958
+  },
+  {
+   "name": "c19_burp",
+   "line": "p09",
+   "start": 20.958,
+   "end": 21.708
+  },
+  {
+   "name": "c20_springs",
+   "line": "p10",
+   "start": 21.708,
+   "end": 22.948
+  },
+  {
+   "name": "c21_ceiling",
+   "line": "p10",
+   "start": 22.948,
+   "end": 24.095
+  },
+  {
+   "name": "c22_tramp",
+   "line": "p11",
+   "start": 24.095,
+   "end": 25.315
+  },
+  {
+   "name": "c23_launch",
+   "line": "p11",
+   "start": 25.315,
+   "end": 25.735
+  },
+  {
+   "name": "c24_mailbox",
+   "line": "p11",
+   "start": 25.735,
+   "end": 26.774
+  },
+  {
+   "name": "c25_cat",
+   "line": "p12",
+   "start": 26.774,
+   "end": 27.634
+  },
+  {
+   "name": "c26_milo_sad",
+   "line": "p12",
+   "start": 27.634,
+   "end": 28.999
+  },
+  {
+   "name": "c27_zoe_roof",
+   "line": "p13",
+   "start": 28.999,
+   "end": 31.009
+  },
+  {
+   "name": "c28_zoe_close",
+   "line": "p14",
+   "start": 31.009,
+   "end": 32.549
+  },
+  {
+   "name": "c29_zoe_smug",
+   "line": "p14",
+   "start": 32.549,
+   "end": 34.397
+  },
+  {
+   "name": "c30_window",
+   "line": "p15",
+   "start": 34.397,
+   "end": 35.978
+  },
+  {
+   "name": "c31_roofparty",
+   "line": "p16",
+   "start": 35.978,
+   "end": 37.918
+  },
+  {
+   "name": "c32_garage",
+   "line": "p16",
+   "start": 37.918,
+   "end": 39.248
+  },
+  {
+   "name": "c33_squat_close",
+   "line": "p17",
+   "start": 39.248,
+   "end": 40.248
+  },
+  {
+   "name": "c34_squat_wide",
+   "line": "p17",
+   "start": 40.248,
+   "end": 41.488
+  },
+  {
+   "name": "c35_moon",
+   "line": "p17",
+   "start": 41.488,
+   "end": 42.5
+  },
+  {
+   "name": "c36_mailman_walk",
+   "line": "p18",
+   "start": 42.5,
+   "end": 44.5
+  },
+  {
+   "name": "c37_mailman_happy",
+   "line": "p18",
+   "start": 44.5,
+   "end": 46.007
+  },
+  {
+   "name": "c38_venue",
+   "line": "p19",
+   "start": 46.007,
+   "end": 47.868
+  },
+  {
+   "name": "c39_rivals_jump",
+   "line": "p20",
+   "start": 47.868,
+   "end": 49.828
+  },
+  {
+   "name": "c40_airplane",
+   "line": "p20",
+   "start": 49.828,
+   "end": 51.195
+  },
+  {
+   "name": "c41_chant",
+   "line": "p21",
+   "start": 51.195,
+   "end": 53.382
+  },
+  {
+   "name": "c42_score10",
+   "line": "p22",
+   "start": 53.382,
+   "end": 54.562
+  },
+  {
+   "name": "c43_gap",
+   "line": "p22",
+   "start": 54.562,
+   "end": 56.242
+  },
+  {
+   "name": "c44_worried",
+   "line": "p22",
+   "start": 56.242,
+   "end": 57.007
+  },
+  {
+   "name": "c45_knees",
+   "line": "p23",
+   "start": 57.007,
+   "end": 58.447
+  },
+  {
+   "name": "c46_push",
+   "line": "p23",
+   "start": 58.447,
+   "end": 59.28
+  },
+  {
+   "name": "c47_strain",
+   "line": "p24",
+   "start": 59.28,
+   "end": 61.22
+  },
+  {
+   "name": "c47b_strain_wide",
+   "line": "p24",
+   "start": 61.22,
+   "end": 62.678
+  },
+  {
+   "name": "c48_laugh",
+   "line": "p25",
+   "start": 62.678,
+   "end": 64.442
+  },
+  {
+   "name": "c49_score5",
+   "line": "p26",
+   "start": 64.442,
+   "end": 65.442
+  },
+  {
+   "name": "c50_calm",
+   "line": "p26",
+   "start": 65.442,
+   "end": 67.96
+  },
+  {
+   "name": "c51_eyes",
+   "line": "p27",
+   "start": 67.96,
+   "end": 69.611
+  },
+  {
+   "name": "c52_launch",
+   "line": "p28",
+   "start": 69.611,
+   "end": 70.248
+  },
+  {
+   "name": "c53_sky",
+   "line": "p29",
+   "start": 70.248,
+   "end": 71.568
+  },
+  {
+   "name": "c54_bird",
+   "line": "p29",
+   "start": 71.568,
+   "end": 73.283
+  },
+  {
+   "name": "c55_land",
+   "line": "p30",
+   "start": 73.283,
+   "end": 74.803
+  },
+  {
+   "name": "c56_scoreboard",
+   "line": "p30",
+   "start": 74.803,
+   "end": 76.163
+  },
+  {
+   "name": "c57_hat",
+   "line": "p30",
+   "start": 76.163,
+   "end": 77.023
+  },
+  {
+   "name": "c58_hat_town",
+   "line": "p30",
+   "start": 77.023,
+   "end": 78.161
+  },
+  {
+   "name": "c59_win",
+   "line": "p31",
+   "start": 78.161,
+   "end": 79.37
+  },
+  {
+   "name": "c60_night_town",
+   "line": "p32",
+   "start": 79.37,
+   "end": 80.67
+  },
+  {
+   "name": "c61_rooftop",
+   "line": "p32",
+   "start": 80.67,
+   "end": 82.224
+  },
+  {
+   "name": "c62_ref_curb",
+   "line": "p33",
+   "start": 82.224,
+   "end": 83.407
+  },
+  {
+   "name": "c63_ref_search",
+   "line": "p34",
+   "start": 83.407,
+   "end": 86.98
+  }
+ ],
+ "events": {
+  "land_hit": 73.633,
+  "launch": 69.661,
+  "knee_tap": 13.326,
+  "burp": 21.107999999999997,
+  "board_fall": 75.703,
+  "highfive": 71.848,
+  "window_shut": 34.897,
+  "mailbox_hit": 25.735
+ },
+ "lines": [
+  {
+   "id": "p01",
+   "speaker": "kid",
+   "text": "In this town, everybody boings.",
+   "caption": "In this town, everybody boings.",
+   "start": 0.06,
+   "end": 1.832,
+   "take": 0,
+   "asr": "in this town everybody boings"
+  },
+  {
+   "id": "p02",
+   "speaker": "kid",
+   "text": "Except me.",
+   "caption": "Except me.",
+   "start": 2.012,
+   "end": 2.589,
+   "take": 0,
+   "asr": "except me"
+  },
+  {
+   "id": "p03",
+   "speaker": "kid",
+   "text": "Okay. I used to boing the highest.",
+   "caption": "Okay. I used to boing the highest.",
+   "start": 3.039,
+   "end": 5.547,
+   "take": 2,
+   "asr": "okay i used to boing the highest"
+  },
+  {
+   "id": "p04",
+   "speaker": "kid",
+   "text": "Over the fence. Over the mailman. Every single morning.",
+   "caption": "Over the fence. Over the mailman. Every single morning.",
+   "start": 5.667,
+   "end": 9.181,
+   "take": 2,
+   "asr": "over the fence over the mailman every single morning"
+  },
+  {
+   "id": "p05",
+   "speaker": "kid",
+   "text": "Then one day, my boing was just... gone.",
+   "caption": "Then one day, my boing was just... gone.",
+   "start": 9.481,
+   "end": 12.116,
+   "take": 0,
+   "asr": "then one day my boing was just gone"
+  },
+  {
+   "id": "p06",
+   "speaker": "kid",
+   "text": "The doctor tapped my knee. Nothing.",
+   "caption": "The doctor tapped my knee. Nothing.",
+   "start": 12.516,
+   "end": 14.317,
+   "take": 0,
+   "asr": "the doctor tapped my knee nothing"
+  },
+  {
+   "id": "p07",
+   "speaker": "kid",
+   "text": "Too much boinging. No boinging for a month.",
+   "caption": "Too much boinging. No boinging for a month.",
+   "start": 14.467,
+   "end": 16.897,
+   "take": 0,
+   "asr": "too much boinging no boinging for a month"
+  },
+  {
+   "id": "p08",
+   "speaker": "kid",
+   "text": "The Sky Race was in one week, so I tried everything.",
+   "caption": "The Sky Race was in one week, so I tried everything.",
+   "start": 17.197,
+   "end": 19.858,
+   "take": 0,
+   "asr": "the sky race was in one week so i tried everything"
+  },
+  {
+   "id": "p09",
+   "speaker": "kid",
+   "text": "Nine sodas. I just burped.",
+   "caption": "Nine sodas. I just burped.",
+   "start": 20.058,
+   "end": 21.618,
+   "take": 1,
+   "asr": "nine sodas i just burped"
+  },
+  {
+   "id": "p10",
+   "speaker": "kid",
+   "text": "Springs on my shoes. I got stuck to the ceiling.",
+   "caption": "Springs on my shoes. I got stuck to the ceiling.",
+   "start": 21.768,
+   "end": 24.005,
+   "take": 0,
+   "asr": "thanks for watching"
+  },
+  {
+   "id": "p11",
+   "speaker": "kid",
+   "text": "Grandma's trampoline. It launched me into the mailbox.",
+   "caption": "Grandma's trampoline. It launched me into the mailbox.",
+   "start": 24.155,
+   "end": 26.584,
+   "take": 0,
+   "asr": "grandma's trampoline it launched me into the mailbox"
+  },
+  {
+   "id": "p12",
+   "speaker": "kid",
+   "text": "Even my cat boings better than me now.",
+   "caption": "Even my cat boings better than me now.",
+   "start": 26.834,
+   "end": 28.659,
+   "take": 0,
+   "asr": "even my cat boings better than me now"
+  },
+  {
+   "id": "p13",
+   "speaker": "kid",
+   "text": "Then my best friend yelled from her roof.",
+   "caption": "Then my best friend yelled from her roof.",
+   "start": 29.059,
+   "end": 30.969,
+   "take": 2,
+   "asr": "then my best friend yelled from her roof"
+  },
+  {
+   "id": "p14",
+   "speaker": "zoe",
+   "text": "Rooftop party tonight! Oh wait, you can't get up here anyway.",
+   "caption": "Rooftop party tonight! Oh wait, you can't get up here anyway.",
+   "start": 31.069,
+   "end": 34.207,
+   "take": 2,
+   "asr": "rooftop party tonight oh wait you can't get up here anyway"
+  },
+  {
+   "id": "p15",
+   "speaker": "kid",
+   "text": "I shut the window.",
+   "caption": "I shut the window.",
+   "start": 34.457,
+   "end": 35.588,
+   "take": 0,
+   "asr": "i shut the window"
+  },
+  {
+   "id": "p16",
+   "speaker": "kid",
+   "text": "So while they danced on the roofs, I trained in the garage.",
+   "caption": "So while they danced on the roofs, I trained in the garage.",
+   "start": 36.038,
+   "end": 39.158,
+   "take": 0,
+   "asr": "so while they danced on the roofs i trained in the garage"
+  },
+  {
+   "id": "p17",
+   "speaker": "kid",
+   "text": "No boing. Just me and gravity. Every single night.",
+   "caption": "No boing. Just me and gravity. Every single night.",
+   "start": 39.308,
+   "end": 42.31,
+   "take": 0,
+   "asr": "no boing just me and gravity every single night"
+  },
+  {
+   "id": "p18",
+   "speaker": "kid",
+   "text": "For the first time in years, the mailman finished his route.",
+   "caption": "For the first time in years, the mailman finished his route.",
+   "start": 42.56,
+   "end": 45.617,
+   "take": 2,
+   "asr": "for the first time in years the mailman finished his route"
+  },
+  {
+   "id": "p19",
+   "speaker": "kid",
+   "text": "Then came the race.",
+   "caption": "Then came the race.",
+   "start": 46.067,
+   "end": 47.728,
+   "take": 0,
+   "asr": "then came the race"
+  },
+  {
+   "id": "p20",
+   "speaker": "kid",
+   "text": "The other team boinged so high, they waved at airplanes.",
+   "caption": "The other team boinged so high, they waved at airplanes.",
+   "start": 47.928,
+   "end": 51.155,
+   "take": 2,
+   "asr": "the other team boinged so high they waved at airplanes"
+  },
+  {
+   "id": "p21",
+   "speaker": "kid",
+   "text": "Boing! Boing! Boing!",
+   "caption": "BOING! BOING! BOING!",
+   "start": 51.255,
+   "end": 53.192,
+   "take": 0,
+   "asr": "boing boing boing"
+  },
+  {
+   "id": "p22",
+   "speaker": "kid",
+   "text": "Ten seconds left. One giant gap. We were losing.",
+   "caption": "Ten seconds left. One giant gap. We were losing.",
+   "start": 53.442,
+   "end": 56.867,
+   "take": 2,
+   "asr": "ten seconds left one giant gap we were losing"
+  },
+  {
+   "id": "p23",
+   "speaker": "kid",
+   "text": "I bent my knees. I pushed.",
+   "caption": "I bent my knees. I pushed.",
+   "start": 57.067,
+   "end": 59.22,
+   "take": 2,
+   "asr": "i bent my knees i pushed"
+  },
+  {
+   "id": "p24",
+   "speaker": "kid",
+   "text": "Hnnnng... almost... almost... almost!",
+   "caption": "Hnnng... almost... almost... almost... ALMOST!",
+   "start": 59.34,
+   "end": 62.538,
+   "take": 2,
+   "asr": "almost almost almost almost"
+  },
+  {
+   "id": "p25",
+   "speaker": "kid",
+   "text": "The other team started laughing.",
+   "caption": "The other team started laughing.",
+   "start": 62.738,
+   "end": 64.202,
+   "take": 0,
+   "asr": "the other team started laughing"
+  },
+  {
+   "id": "p26",
+   "speaker": "kid",
+   "text": "Five seconds. Seven nights of squats, all saved up.",
+   "caption": "Five seconds. Seven nights of squats, all saved up.",
+   "start": 64.502,
+   "end": 67.82,
+   "take": 2,
+   "asr": "five seconds seven nights of squats all saved up"
+  },
+  {
+   "id": "p27",
+   "speaker": "kid",
+   "text": "And then... it came back.",
+   "caption": "And then... it came back.",
+   "start": 68.02,
+   "end": 69.421,
+   "take": 0,
+   "asr": "and then it came back"
+  },
+  {
+   "id": "p28",
+   "speaker": "kid",
+   "text": "BOING!",
+   "caption": "BOING!",
+   "start": 69.671,
+   "end": 70.058,
+   "take": 3,
+   "asr": "boing"
+  },
+  {
+   "id": "p29",
+   "speaker": "kid",
+   "text": "I flew so high, I high-fived a bird.",
+   "caption": "I flew so high, I high-fived a bird.",
+   "start": 70.308,
+   "end": 73.193,
+   "take": 1,
+   "asr": "i flew so high i high fived a bird"
+  },
+  {
+   "id": "p30",
+   "speaker": "kid",
+   "text": "I landed on the finish line. The scoreboard fell over. The ref's hat flew into the next town.",
+   "caption": "I landed on the finish line. The scoreboard fell over. The ref's hat flew into the next town.",
+   "start": 73.343,
+   "end": 78.021,
+   "take": 3,
+   "asr": "i landed on the finish line the scoreboard fell over the ref's hat flew into the next town"
+  },
+  {
+   "id": "p31",
+   "speaker": "kid",
+   "text": "We won!",
+   "caption": "We won!",
+   "start": 78.221,
+   "end": 78.98,
+   "take": 2,
+   "asr": "we won"
+  },
+  {
+   "id": "p32",
+   "speaker": "kid",
+   "text": "That night, the whole town was boinging again.",
+   "caption": "That night, the whole town was boinging again.",
+   "start": 79.43,
+   "end": 82.034,
+   "take": 0,
+   "asr": "that night the whole town was boinging again"
+  },
+  {
+   "id": "p33",
+   "speaker": "kid",
+   "text": "Except the ref.",
+   "caption": "Except the ref.",
+   "start": 82.284,
+   "end": 83.217,
+   "take": 1,
+   "asr": "except the ref"
+  },
+  {
+   "id": "p34",
+   "speaker": "kid",
+   "text": "He's still looking for his hat.",
+   "caption": "He's still looking for his hat.",
+   "start": 83.467,
+   "end": 85.18,
+   "take": 2,
+   "asr": "he's still looking for his hat"
+  }
+ ]
+}

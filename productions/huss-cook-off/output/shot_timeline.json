@@ -1,0 +1,514 @@
+{
+ "fps": 30,
+ "duration": 50.477,
+ "frames": 1514,
+ "cuts": [
+  {
+   "name": "c01_aerial",
+   "line": "p01",
+   "start": 0.0,
+   "end": 1.2
+  },
+  {
+   "name": "c02_street",
+   "line": "p01",
+   "start": 1.2,
+   "end": 1.86
+  },
+  {
+   "name": "c03_h1",
+   "line": "p02",
+   "start": 1.86,
+   "end": 2.66
+  },
+  {
+   "name": "c03_h2",
+   "line": "p02",
+   "start": 2.66,
+   "end": 3.46
+  },
+  {
+   "name": "c03_h3",
+   "line": "p02",
+   "start": 3.46,
+   "end": 4.275
+  },
+  {
+   "name": "c04_pie",
+   "line": "p03",
+   "start": 4.275,
+   "end": 5.915
+  },
+  {
+   "name": "c05_birds",
+   "line": "p03",
+   "start": 5.915,
+   "end": 7.359
+  },
+  {
+   "name": "c06_pan",
+   "line": "p04",
+   "start": 7.359,
+   "end": 8.499
+  },
+  {
+   "name": "c07_over",
+   "line": "p04",
+   "start": 8.499,
+   "end": 9.871
+  },
+  {
+   "name": "c08_except",
+   "line": "p05",
+   "start": 9.871,
+   "end": 10.731
+  },
+  {
+   "name": "c09_water",
+   "line": "p05",
+   "start": 10.731,
+   "end": 11.451
+  },
+  {
+   "name": "c10_twice",
+   "line": "p05",
+   "start": 11.451,
+   "end": 11.994
+  },
+  {
+   "name": "c11_alarm",
+   "line": "p06",
+   "start": 11.994,
+   "end": 13.612
+  },
+  {
+   "name": "c12_venue",
+   "line": "p07",
+   "start": 13.612,
+   "end": 15.092
+  },
+  {
+   "name": "c13_spoon",
+   "line": "p07",
+   "start": 15.092,
+   "end": 16.83
+  },
+  {
+   "name": "c14_look",
+   "line": "p08",
+   "start": 16.83,
+   "end": 18.21
+  },
+  {
+   "name": "c15_please",
+   "line": "p08",
+   "start": 18.21,
+   "end": 19.19
+  },
+  {
+   "name": "c16_remember",
+   "line": "p08",
+   "start": 19.19,
+   "end": 20.281
+  },
+  {
+   "name": "c17_train",
+   "line": "p09",
+   "start": 20.281,
+   "end": 20.901
+  },
+  {
+   "name": "c18_toast",
+   "line": "p09",
+   "start": 20.901,
+   "end": 21.381
+  },
+  {
+   "name": "c19_toast_b",
+   "line": "p09",
+   "start": 21.381,
+   "end": 21.741
+  },
+  {
+   "name": "c20_cereal",
+   "line": "p09",
+   "start": 21.741,
+   "end": 22.321
+  },
+  {
+   "name": "c21_cereal_b",
+   "line": "p09",
+   "start": 22.321,
+   "end": 22.801
+  },
+  {
+   "name": "c22_ice",
+   "line": "p09",
+   "start": 22.801,
+   "end": 23.681
+  },
+  {
+   "name": "c23_ice_b",
+   "line": "p09",
+   "start": 23.681,
+   "end": 24.549
+  },
+  {
+   "name": "c24_secret",
+   "line": "p10",
+   "start": 24.549,
+   "end": 26.106
+  },
+  {
+   "name": "c25_hands",
+   "line": "p11",
+   "start": 26.106,
+   "end": 27.566
+  },
+  {
+   "name": "c26_gran_huss",
+   "line": "p11",
+   "start": 27.566,
+   "end": 28.877
+  },
+  {
+   "name": "c27_day",
+   "line": "p12",
+   "start": 28.877,
+   "end": 29.757
+  },
+  {
+   "name": "c28_pizza",
+   "line": "p12",
+   "start": 29.757,
+   "end": 31.117
+  },
+  {
+   "name": "c29_nooven",
+   "line": "p12",
+   "start": 31.117,
+   "end": 32.406
+  },
+  {
+   "name": "c30_sigh",
+   "line": "p13",
+   "start": 32.406,
+   "end": 33.446
+  },
+  {
+   "name": "c31_laugh",
+   "line": "p13",
+   "start": 33.446,
+   "end": 34.543
+  },
+  {
+   "name": "c32_breath",
+   "line": "p14",
+   "start": 34.543,
+   "end": 36.522
+  },
+  {
+   "name": "c33_bighuss",
+   "line": "p15",
+   "start": 36.522,
+   "end": 37.382
+  },
+  {
+   "name": "c34_spin",
+   "line": "p16",
+   "start": 37.382,
+   "end": 38.922
+  },
+  {
+   "name": "c35_cook",
+   "line": "p16",
+   "start": 38.922,
+   "end": 39.822
+  },
+  {
+   "name": "c36_golden",
+   "line": "p16",
+   "start": 39.822,
+   "end": 40.783
+  },
+  {
+   "name": "c37_bite",
+   "line": "p17",
+   "start": 40.783,
+   "end": 42.083
+  },
+  {
+   "name": "c38_cry",
+   "line": "p17",
+   "start": 42.083,
+   "end": 42.864
+  },
+  {
+   "name": "c39_award",
+   "line": "p18",
+   "start": 42.864,
+   "end": 43.826
+  },
+  {
+   "name": "c40_town",
+   "line": "p19",
+   "start": 43.826,
+   "end": 45.126
+  },
+  {
+   "name": "c41_grandma",
+   "line": "p19",
+   "start": 45.126,
+   "end": 46.096
+  },
+  {
+   "name": "c42_end1",
+   "line": "p20",
+   "start": 46.096,
+   "end": 46.896
+  },
+  {
+   "name": "c42_end2",
+   "line": "p20",
+   "start": 46.896,
+   "end": 47.696
+  },
+  {
+   "name": "c42_end3",
+   "line": "p20",
+   "start": 47.696,
+   "end": 50.477
+  }
+ ],
+ "events": {
+  "h6a": [
+   1.92,
+   2.32,
+   2.72,
+   3.12,
+   3.52,
+   3.92
+  ],
+  "h6b": [
+   46.156,
+   46.556,
+   46.956,
+   47.356,
+   47.756,
+   48.156
+  ],
+  "big_huss": 36.582,
+  "gran_huss": 27.816,
+  "flip": 7.659,
+  "burn": [
+   10.731,
+   21.381,
+   22.321,
+   23.681
+  ],
+  "alarm": 11.994,
+  "pop": 21.101,
+  "ding": 39.822,
+  "win": 42.864
+ },
+ "lines": [
+  {
+   "id": "p01",
+   "speaker": "kid",
+   "text": "In this town, everybody can cook.",
+   "caption": "In this town, everybody can cook.",
+   "start": 0.06,
+   "end": 1.87,
+   "take": 2,
+   "asr": "in this town everybody can cook"
+  },
+  {
+   "id": "p02",
+   "speaker": "h6",
+   "text": "Huss, huss, huss, huss, huss, huss.",
+   "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!",
+   "start": 1.92,
+   "end": 4.185,
+   "take": 0
+  },
+  {
+   "id": "p03",
+   "speaker": "kid",
+   "text": "Grandma bakes pies so good, the birds line up outside.",
+   "caption": "Grandma bakes pies so good, the birds line up outside.",
+   "start": 4.335,
+   "end": 7.339,
+   "take": 2,
+   "asr": "grandma bakes pies so good the birds line up outside"
+  },
+  {
+   "id": "p04",
+   "speaker": "kid",
+   "text": "The mailman flips pancakes over his own house.",
+   "caption": "The mailman flips pancakes over his own house.",
+   "start": 7.419,
+   "end": 9.681,
+   "take": 2,
+   "asr": "the mailman flips pancakes over his own house"
+  },
+  {
+   "id": "p05",
+   "speaker": "kid",
+   "text": "Except me. I burned water. Twice.",
+   "caption": "Except me. I burned water. Twice.",
+   "start": 9.931,
+   "end": 11.854,
+   "take": 0,
+   "asr": "except me i burned water twice"
+  },
+  {
+   "id": "p06",
+   "speaker": "kid",
+   "text": "The smoke alarm knows my name.",
+   "caption": "The smoke alarm knows my name.",
+   "start": 12.054,
+   "end": 13.422,
+   "take": 2,
+   "asr": "the smoke alarm knows my name"
+  },
+  {
+   "id": "p07",
+   "speaker": "kid",
+   "text": "Then came the town cook-off. First prize: the golden spoon.",
+   "caption": "Then came the town cook-off. First prize: the golden spoon.",
+   "start": 13.672,
+   "end": 16.74,
+   "take": 1,
+   "asr": "then came the town cook off first prize the golden spoon"
+  },
+  {
+   "id": "p08",
+   "speaker": "kid",
+   "text": "Everybody looked at me and said: Leo, please. Remember the water.",
+   "caption": "Everybody looked at me and said: Leo, please. Remember the water.",
+   "start": 16.89,
+   "end": 20.091,
+   "take": 0,
+   "asr": "everybody looked at me and said leo please remember the water"
+  },
+  {
+   "id": "p09",
+   "speaker": "kid",
+   "text": "So I trained. Toast. Burned. Cereal. Burned. Ice cream. Somehow, burned.",
+   "caption": "So I trained. Toast. Burned. Cereal. Burned. Ice cream. Somehow, burned.",
+   "start": 20.341,
+   "end": 24.409,
+   "take": 0,
+   "asr": "so i trained toast burned cereal burned ice cream somehow burned"
+  },
+  {
+   "id": "p10",
+   "speaker": "kid",
+   "text": "Then Grandma told me her secret.",
+   "caption": "Then Grandma told me her secret.",
+   "start": 24.609,
+   "end": 26.066,
+   "take": 1,
+   "asr": "then grandma told me her secret"
+  },
+  {
+   "id": "p11",
+   "speaker": "kid",
+   "text": "You don't cook with your hands, Leo. You cook with your huss.",
+   "caption": "You don't cook with your hands, Leo. You cook with your huss.",
+   "start": 26.166,
+   "end": 28.687,
+   "take": 2,
+   "asr": "you don't cook with your hands leo you cook with your huss"
+  },
+  {
+   "id": "p12",
+   "speaker": "kid",
+   "text": "Cook-off day. I had one raw pizza. And no oven.",
+   "caption": "Cook-off day. I had one raw pizza. And no oven.",
+   "start": 28.937,
+   "end": 32.316,
+   "take": 0,
+   "asr": "cook off day i had one raw pizza and no oven"
+  },
+  {
+   "id": "p13",
+   "speaker": "kid",
+   "text": "The judge sighed. Everybody laughed.",
+   "caption": "The judge sighed. Everybody laughed.",
+   "start": 32.466,
+   "end": 34.453,
+   "take": 2,
+   "asr": "the judge sighed everybody laughed"
+  },
+  {
+   "id": "p14",
+   "speaker": "kid",
+   "text": "I took the biggest breath of my life.",
+   "caption": "I took the biggest breath of my life.",
+   "start": 34.603,
+   "end": 36.432,
+   "take": 2,
+   "asr": "i took the biggest breath of my life"
+  },
+  {
+   "id": "p15",
+   "speaker": "kid",
+   "text": "Huss!",
+   "caption": "HUSS!",
+   "start": 36.582,
+   "end": 37.242,
+   "take": 2,
+   "asr": "huss"
+  },
+  {
+   "id": "p16",
+   "speaker": "kid",
+   "text": "The pizza spun so fast, it cooked itself. Perfectly golden.",
+   "caption": "The pizza spun so fast, it cooked itself. Perfectly golden.",
+   "start": 37.442,
+   "end": 40.693,
+   "take": 1,
+   "asr": "the pizza spun so fast it cooked itself perfectly golden"
+  },
+  {
+   "id": "p17",
+   "speaker": "kid",
+   "text": "The judge took one bite, and cried.",
+   "caption": "The judge took one bite, and cried.",
+   "start": 40.843,
+   "end": 42.774,
+   "take": 2,
+   "asr": "the judge took one bite and cried"
+  },
+  {
+   "id": "p18",
+   "speaker": "kid",
+   "text": "Golden spoon.",
+   "caption": "Golden spoon.",
+   "start": 42.924,
+   "end": 43.636,
+   "take": 0,
+   "asr": "golden spoon"
+  },
+  {
+   "id": "p19",
+   "speaker": "kid",
+   "text": "Now everybody in this town cooks with a huss.",
+   "caption": "Now everybody in this town cooks with a huss.",
+   "start": 43.886,
+   "end": 46.106,
+   "take": 1,
+   "asr": "now everybody in this town cooks with a huss"
+  },
+  {
+   "id": "p20",
+   "speaker": "h6",
+   "text": "Huss, huss, huss, huss, huss, huss.",
+   "caption": "HUSS! HUSS! HUSS! HUSS! HUSS! HUSS!",
+   "start": 46.156,
+   "end": 48.777,
+   "take": 0
+  }
+ ]
+}

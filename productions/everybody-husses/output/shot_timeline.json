@@ -1,0 +1,704 @@
+{
+ "fps": 30,
+ "duration": 72.615,
+ "frames": 2178,
+ "cuts": [
+  {
+   "name": "c01_aerial",
+   "line": "p01",
+   "start": 0.0,
+   "end": 0.7
+  },
+  {
+   "name": "c02_street",
+   "line": "p01",
+   "start": 0.7,
+   "end": 1.66
+  },
+  {
+   "name": "c03_grandma",
+   "line": "p02",
+   "start": 1.66,
+   "end": 3.14
+  },
+  {
+   "name": "c04_grandma_huss",
+   "line": "p02",
+   "start": 3.14,
+   "end": 3.541
+  },
+  {
+   "name": "c05_mailman",
+   "line": "p03",
+   "start": 3.541,
+   "end": 5.021
+  },
+  {
+   "name": "c06_mailman_huss",
+   "line": "p03",
+   "start": 5.021,
+   "end": 5.479
+  },
+  {
+   "name": "c07_cat",
+   "line": "p04",
+   "start": 5.479,
+   "end": 6.779
+  },
+  {
+   "name": "c08_cat_huss",
+   "line": "p04",
+   "start": 6.779,
+   "end": 7.378
+  },
+  {
+   "name": "c09_except",
+   "line": "p05",
+   "start": 7.378,
+   "end": 8.48
+  },
+  {
+   "name": "c10_try",
+   "line": "p06",
+   "start": 8.48,
+   "end": 10.32
+  },
+  {
+   "name": "c11_squeak",
+   "line": "p06",
+   "start": 10.32,
+   "end": 10.896
+  },
+  {
+   "name": "c12_pull_wide",
+   "line": "p07",
+   "start": 10.896,
+   "end": 13.056
+  },
+  {
+   "name": "c13_mudville",
+   "line": "p07",
+   "start": 13.056,
+   "end": 14.139
+  },
+  {
+   "name": "c14_dragged",
+   "line": "p08",
+   "start": 14.139,
+   "end": 16.059
+  },
+  {
+   "name": "c15_faceplant",
+   "line": "p08",
+   "start": 16.059,
+   "end": 16.979
+  },
+  {
+   "name": "c16_mudfaces",
+   "line": "p08",
+   "start": 16.979,
+   "end": 17.826
+  },
+  {
+   "name": "c17_captain",
+   "line": "p09",
+   "start": 17.826,
+   "end": 18.946
+  },
+  {
+   "name": "c18_gap",
+   "line": "p09",
+   "start": 18.946,
+   "end": 20.001
+  },
+  {
+   "name": "c19_ava_point",
+   "line": "p10",
+   "start": 20.001,
+   "end": 21.201
+  },
+  {
+   "name": "c20_ava_smug",
+   "line": "p10",
+   "start": 21.201,
+   "end": 22.348
+  },
+  {
+   "name": "c21_poster",
+   "line": "p11",
+   "start": 22.348,
+   "end": 24.26
+  },
+  {
+   "name": "c22_chili",
+   "line": "p12",
+   "start": 24.26,
+   "end": 25.86
+  },
+  {
+   "name": "c23_smoke",
+   "line": "p12",
+   "start": 25.86,
+   "end": 27.2
+  },
+  {
+   "name": "c24_squeak2",
+   "line": "p12",
+   "start": 27.2,
+   "end": 27.698
+  },
+  {
+   "name": "c25_laptop",
+   "line": "p13",
+   "start": 27.698,
+   "end": 29.118
+  },
+  {
+   "name": "c26_laptop_huss",
+   "line": "p13",
+   "start": 29.118,
+   "end": 30.939
+  },
+  {
+   "name": "c27_night_town",
+   "line": "p14",
+   "start": 30.939,
+   "end": 32.599
+  },
+  {
+   "name": "c28_garage",
+   "line": "p14",
+   "start": 32.599,
+   "end": 34.119
+  },
+  {
+   "name": "c29_rope",
+   "line": "p14",
+   "start": 34.119,
+   "end": 35.224
+  },
+  {
+   "name": "c30_car",
+   "line": "p15",
+   "start": 35.224,
+   "end": 37.082
+  },
+  {
+   "name": "c31_truck",
+   "line": "p16",
+   "start": 37.082,
+   "end": 39.082
+  },
+  {
+   "name": "c32_driver",
+   "line": "p16",
+   "start": 39.082,
+   "end": 41.027
+  },
+  {
+   "name": "c33_venue",
+   "line": "p17",
+   "start": 41.027,
+   "end": 42.781
+  },
+  {
+   "name": "c34_mud_huss",
+   "line": "p18",
+   "start": 42.781,
+   "end": 44.041
+  },
+  {
+   "name": "c35_trees",
+   "line": "p18",
+   "start": 44.041,
+   "end": 45.422
+  },
+  {
+   "name": "c36_chant",
+   "line": "p19",
+   "start": 45.422,
+   "end": 46.042
+  },
+  {
+   "name": "c36b_chant",
+   "line": "p19",
+   "start": 46.042,
+   "end": 46.342
+  },
+  {
+   "name": "c36c_chant",
+   "line": "p19",
+   "start": 46.342,
+   "end": 46.882
+  },
+  {
+   "name": "c37_score10",
+   "line": "p20",
+   "start": 46.882,
+   "end": 48.302
+  },
+  {
+   "name": "c38_shoes",
+   "line": "p20",
+   "start": 48.302,
+   "end": 49.162
+  },
+  {
+   "name": "c39_worried",
+   "line": "p20",
+   "start": 49.162,
+   "end": 49.975
+  },
+  {
+   "name": "c40_grab",
+   "line": "p21",
+   "start": 49.975,
+   "end": 50.835
+  },
+  {
+   "name": "c41_mouth",
+   "line": "p21",
+   "start": 50.835,
+   "end": 51.813
+  },
+  {
+   "name": "c42_squeak3",
+   "line": "p22",
+   "start": 51.813,
+   "end": 52.46
+  },
+  {
+   "name": "c43_laugh",
+   "line": "p23",
+   "start": 52.46,
+   "end": 55.482
+  },
+  {
+   "name": "c44_score5",
+   "line": "p24",
+   "start": 55.482,
+   "end": 56.442
+  },
+  {
+   "name": "c45_flashback",
+   "line": "p24",
+   "start": 56.442,
+   "end": 57.462
+  },
+  {
+   "name": "c46_calm",
+   "line": "p24",
+   "start": 57.462,
+   "end": 58.418
+  },
+  {
+   "name": "c47_eyes",
+   "line": "p25",
+   "start": 58.418,
+   "end": 59.853
+  },
+  {
+   "name": "c48_bighuss",
+   "line": "p26",
+   "start": 59.853,
+   "end": 60.539
+  },
+  {
+   "name": "c49_tight",
+   "line": "p27",
+   "start": 60.539,
+   "end": 61.659
+  },
+  {
+   "name": "c50_fly",
+   "line": "p27",
+   "start": 61.659,
+   "end": 63.099
+  },
+  {
+   "name": "c51_loop",
+   "line": "p27",
+   "start": 63.099,
+   "end": 63.799
+  },
+  {
+   "name": "c52_splash",
+   "line": "p27",
+   "start": 63.799,
+   "end": 65.594
+  },
+  {
+   "name": "c53_win",
+   "line": "p28",
+   "start": 65.594,
+   "end": 66.785
+  },
+  {
+   "name": "c54_town_end",
+   "line": "p29",
+   "start": 66.785,
+   "end": 68.985
+  },
+  {
+   "name": "c55_leo_jar",
+   "line": "p29",
+   "start": 68.985,
+   "end": 69.618
+  },
+  {
+   "name": "c56_end1",
+   "line": "p30",
+   "start": 69.618,
+   "end": 70.098
+  },
+  {
+   "name": "c57_end2",
+   "line": "p30",
+   "start": 70.098,
+   "end": 70.618
+  },
+  {
+   "name": "c58_end3",
+   "line": "p30",
+   "start": 70.618,
+   "end": 72.615
+  }
+ ],
+ "events": {
+  "huss_small": [
+   3.2,
+   5.081,
+   6.839
+  ],
+  "squeak": [
+   10.38,
+   27.26,
+   51.873
+  ],
+  "chant": [
+   45.482,
+   46.102,
+   46.402
+  ],
+  "end_chant": [
+   69.678,
+   70.158,
+   70.678
+  ],
+  "big_huss": 59.913,
+  "laptop_huss": 29.538,
+  "mud_huss": 43.101,
+  "splash_old": 16.409000000000002,
+  "splash": 64.249,
+  "rope_snap": 60.639,
+  "whoosh": [
+   61.659,
+   63.099
+  ],
+  "car_creak": 35.224,
+  "truck_creak": 37.082,
+  "win": 65.594
+ },
+ "lines": [
+  {
+   "id": "p01",
+   "speaker": "kid",
+   "text": "In this town, everybody husses.",
+   "caption": "In this town, everybody husses.",
+   "start": 0.06,
+   "end": 1.6,
+   "take": 1,
+   "asr": "in this town everybody husses"
+  },
+  {
+   "id": "p02",
+   "speaker": "kid",
+   "text": "Grandma opens a jar. Huss!",
+   "caption": "Grandma opens a jar. HUSS!",
+   "start": 1.72,
+   "end": 3.501,
+   "take": 1,
+   "asr": "huss"
+  },
+  {
+   "id": "p03",
+   "speaker": "kid",
+   "text": "The mailman lifts a box. Huss!",
+   "caption": "The mailman lifts a box. HUSS!",
+   "start": 3.601,
+   "end": 5.439,
+   "take": 0,
+   "asr": "the mailman lifts a box huss"
+  },
+  {
+   "id": "p04",
+   "speaker": "kid",
+   "text": "Even the cat stretches. Huss!",
+   "caption": "Even the cat stretches. HUSS!",
+   "start": 5.539,
+   "end": 7.188,
+   "take": 2,
+   "asr": "even the cat stretches huss"
+  },
+  {
+   "id": "p05",
+   "speaker": "kid",
+   "text": "Except me.",
+   "caption": "Except me.",
+   "start": 7.438,
+   "end": 8.19,
+   "take": 1,
+   "asr": "except me"
+  },
+  {
+   "id": "p06",
+   "speaker": "kid",
+   "text": "When I try to huss, I just... squeak.",
+   "caption": "When I try to huss, I just... squeak.",
+   "start": 8.54,
+   "end": 10.606,
+   "take": 0,
+   "asr": "when i try to huss i just squeak"
+  },
+  {
+   "id": "p07",
+   "speaker": "kid",
+   "text": "Every summer, our town plays tug of war against Mudville.",
+   "caption": "Every summer, our town plays tug of war against Mudville.",
+   "start": 10.956,
+   "end": 14.099,
+   "take": 0,
+   "asr": "every summer our town plays tug of war against mudville"
+  },
+  {
+   "id": "p08",
+   "speaker": "kid",
+   "text": "And every summer, we lose. Face first. Into the mud.",
+   "caption": "And every summer, we lose. Face first. Into the mud.",
+   "start": 14.199,
+   "end": 17.586,
+   "take": 0,
+   "asr": "and every summer we lose face first into the mud"
+  },
+  {
+   "id": "p09",
+   "speaker": "kid",
+   "text": "This year, our captain was one player short.",
+   "caption": "This year, our captain was one player short.",
+   "start": 17.886,
+   "end": 19.961,
+   "take": 1,
+   "asr": "this year our captain was one player short"
+  },
+  {
+   "id": "p10",
+   "speaker": "ava",
+   "text": "You're in, Leo. Just... don't squeak.",
+   "caption": "You're in, Leo. Just... don't squeak.",
+   "start": 20.061,
+   "end": 22.108,
+   "take": 2,
+   "asr": "you're in leo just don't squeak"
+  },
+  {
+   "id": "p11",
+   "speaker": "kid",
+   "text": "So I tried everything.",
+   "caption": "So I tried everything.",
+   "start": 22.408,
+   "end": 24.22,
+   "take": 0,
+   "asr": "so i tried everything"
+  },
+  {
+   "id": "p12",
+   "speaker": "kid",
+   "text": "Grandpa's mega spicy chili. Smoke came out of my ears. Squeak.",
+   "caption": "Grandpa's mega spicy chili. Smoke came out of my ears. Squeak.",
+   "start": 24.32,
+   "end": 27.558,
+   "take": 0,
+   "asr": "grandpa's mega spicy chili smoke came out of my ears squeak"
+  },
+  {
+   "id": "p13",
+   "speaker": "kid",
+   "text": "A huss tutorial. Even the laptop hussed louder than me.",
+   "caption": "A huss tutorial. Even the laptop hussed louder than me.",
+   "start": 27.758,
+   "end": 30.649,
+   "take": 1,
+   "asr": "a huss tutorial even the laptop hussed louder than me"
+  },
+  {
+   "id": "p14",
+   "speaker": "kid",
+   "text": "So every night, while the town slept, I trained. No huss. Just me and a rope.",
+   "caption": "So every night, while the town slept, I trained. No huss. Just me and a rope.",
+   "start": 30.999,
+   "end": 35.084,
+   "take": 1,
+   "asr": "so every night while the town slept i trained no huss just me and a rope"
+  },
+  {
+   "id": "p15",
+   "speaker": "kid",
+   "text": "Night one, I pulled Grandma's car.",
+   "caption": "Night one, I pulled Grandma's car.",
+   "start": 35.284,
+   "end": 37.042,
+   "take": 2,
+   "asr": "night one i pulled grandma's car"
+  },
+  {
+   "id": "p16",
+   "speaker": "kid",
+   "text": "Night seven, the ice cream truck. With the driver still asleep inside.",
+   "caption": "Night seven, the ice cream truck. With the driver still asleep inside.",
+   "start": 37.142,
+   "end": 40.687,
+   "take": 0,
+   "asr": "night seven the ice cream truck with the driver still asleep inside"
+  },
+  {
+   "id": "p17",
+   "speaker": "kid",
+   "text": "Then came the big pull.",
+   "caption": "Then came the big pull.",
+   "start": 41.087,
+   "end": 42.691,
+   "take": 2,
+   "asr": "then came the big pull"
+  },
+  {
+   "id": "p18",
+   "speaker": "kid",
+   "text": "Mudville hussed so hard, the trees lost their leaves.",
+   "caption": "Mudville hussed so hard, the trees lost their leaves.",
+   "start": 42.841,
+   "end": 45.382,
+   "take": 1,
+   "asr": "mudville hussed so hard the trees lost their leaves"
+  },
+  {
+   "id": "p19",
+   "speaker": "kid",
+   "text": "Huss! Huss! Huss!",
+   "caption": "HUSS! HUSS! HUSS!",
+   "start": 45.482,
+   "end": 46.742,
+   "take": 2,
+   "asr": "huss huss huss"
+  },
+  {
+   "id": "p20",
+   "speaker": "kid",
+   "text": "Ten seconds left. Our shoes were sliding toward the mud.",
+   "caption": "Ten seconds left. Our shoes were sliding toward the mud.",
+   "start": 46.942,
+   "end": 49.885,
+   "take": 2,
+   "asr": "ten seconds left our shoes were sliding toward the mud"
+  },
+  {
+   "id": "p21",
+   "speaker": "kid",
+   "text": "I grabbed the rope. I opened my mouth...",
+   "caption": "I grabbed the rope. I opened my mouth...",
+   "start": 50.035,
+   "end": 51.623,
+   "take": 0,
+   "asr": "i grabbed the rope i opened my mouth"
+  },
+  {
+   "id": "p22",
+   "speaker": "kid",
+   "text": "Squeak.",
+   "caption": "Squeak.",
+   "start": 51.873,
+   "end": 52.27,
+   "take": 0,
+   "asr": "squeak"
+  },
+  {
+   "id": "p23",
+   "speaker": "kid",
+   "text": "Mudville laughed so hard, they almost let go.",
+   "caption": "Mudville laughed so hard, they almost let go.",
+   "start": 52.52,
+   "end": 55.292,
+   "take": 2,
+   "asr": "mudville laughed so hard they almost let go"
+  },
+  {
+   "id": "p24",
+   "speaker": "kid",
+   "text": "Five seconds. Seven nights of pulling, all saved up.",
+   "caption": "Five seconds. Seven nights of pulling, all saved up.",
+   "start": 55.542,
+   "end": 58.328,
+   "take": 2,
+   "asr": "five seconds seven nights of pulling all saved up"
+  },
+  {
+   "id": "p25",
+   "speaker": "kid",
+   "text": "And then... it came out.",
+   "caption": "And then... it came out.",
+   "start": 58.478,
+   "end": 59.713,
+   "take": 2,
+   "asr": "and then it came out"
+  },
+  {
+   "id": "p26",
+   "speaker": "kid",
+   "text": "Huss!",
+   "caption": "HUSS!",
+   "start": 59.913,
+   "end": 60.399,
+   "take": 2,
+   "asr": "hoss"
+  },
+  {
+   "id": "p27",
+   "speaker": "kid",
+   "text": "The rope snapped tight. All of Mudville flew over our heads, did a full loop, and landed face first in their own mud.",
+   "caption": "The rope snapped tight. All of Mudville flew over our heads, did a full loop, and landed face first in their own mud.",
+   "start": 60.599,
+   "end": 65.454,
+   "take": 6,
+   "asr": "the rope snapped tight all of mudville flew over our heads did a full loop and landed face first in their own mud"
+  },
+  {
+   "id": "p28",
+   "speaker": "kid",
+   "text": "We won!",
+   "caption": "We won!",
+   "start": 65.654,
+   "end": 66.445,
+   "take": 5,
+   "asr": "we won"
+  },
+  {
+   "id": "p29",
+   "speaker": "kid",
+   "text": "Now everybody in this town husses. Even me.",
+   "caption": "Now everybody in this town husses. Even me.",
+   "start": 66.845,
+   "end": 69.478,
+   "take": 0,
+   "asr": "now everybody in this town husses even me"
+  },
+  {
+   "id": "p30",
+   "speaker": "kid",
+   "text": "Huss! Huss! Huss!",
+   "caption": "HUSS! HUSS! HUSS!",
+   "start": 69.678,
+   "end": 71.015,
+   "take": 2,
+   "asr": "huss huss huss"
+  }
+ ]
+}

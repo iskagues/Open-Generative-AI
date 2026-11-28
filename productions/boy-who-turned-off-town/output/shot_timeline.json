@@ -1,0 +1,132 @@
+{
+ "fps": 30,
+ "duration": 69.424,
+ "frames": 2083,
+ "events": {
+  "flicker": 1.25,
+  "blackout1": 4.08,
+  "lamps_off": 5.364,
+  "shops_off": 6.314,
+  "statue_cut": 7.064,
+  "statue_off": 8.844,
+  "morning": 9.546,
+  "s03": 11.802,
+  "baker": 13.882,
+  "s04": 15.602,
+  "noah_push": 17.178,
+  "s05": 19.336,
+  "s06": 23.585,
+  "playground": 25.549,
+  "trees": 26.689,
+  "obs_ext": 27.969,
+  "s07": 29.763,
+  "leo_shout": 30.938,
+  "stop": 31.696,
+  "noah_cu": 32.464,
+  "s08": 34.117,
+  "click": 34.537,
+  "aerial_dark_cut": 34.737,
+  "town_dark": 34.917,
+  "s09": 37.855,
+  "point": 39.207,
+  "s10": 41.143,
+  "stars": 41.563,
+  "comet": 43.212,
+  "s11": 46.303,
+  "note": 49.531,
+  "note_read": 50.695,
+  "s12": 52.764,
+  "home": 55.807,
+  "s13": 57.863,
+  "leo_soften": 60.117,
+  "s14a": 63.126,
+  "s14b": 65.021,
+  "end": 69.424
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "name": "THE IMPOSSIBLE EVENT",
+   "start": 0.0,
+   "end": 4.814
+  },
+  {
+   "id": "S02",
+   "name": "THE BLACKOUT MONTAGE",
+   "start": 4.814,
+   "end": 11.802
+  },
+  {
+   "id": "S03",
+   "name": "THE TOWN IS CONFUSED",
+   "start": 11.802,
+   "end": 15.602
+  },
+  {
+   "id": "S04",
+   "name": "THE SUSPECT",
+   "start": 15.602,
+   "end": 19.336
+  },
+  {
+   "id": "S05",
+   "name": "THE MYSTERIOUS WALK",
+   "start": 19.336,
+   "end": 23.585
+  },
+  {
+   "id": "S06",
+   "name": "THE PURSUIT",
+   "start": 23.585,
+   "end": 29.763
+  },
+  {
+   "id": "S07",
+   "name": "THE CONFRONTATION",
+   "start": 29.763,
+   "end": 34.117
+  },
+  {
+   "id": "S08",
+   "name": "THE SWITCH",
+   "start": 34.117,
+   "end": 37.855
+  },
+  {
+   "id": "S09",
+   "name": "THE MOMENT OF SILENCE",
+   "start": 37.855,
+   "end": 41.143
+  },
+  {
+   "id": "S10",
+   "name": "THE SKY REVEAL",
+   "start": 41.143,
+   "end": 46.303
+  },
+  {
+   "id": "S11",
+   "name": "THE DRAWING",
+   "start": 46.303,
+   "end": 52.764
+  },
+  {
+   "id": "S12",
+   "name": "THE HIDDEN REASON",
+   "start": 52.764,
+   "end": 57.863
+  },
+  {
+   "id": "S13",
+   "name": "THE REUNION",
+   "start": 57.863,
+   "end": 63.126
+  },
+  {
+   "id": "S14",
+   "name": "THE FINAL EMOTIONAL PAYOFF",
+   "start": 63.126,
+   "end": 69.424
+  }
+ ]
+}
